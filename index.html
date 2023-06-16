@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/index.html">
@@ -13,89 +27,164 @@
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title>Hexo</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Hexo</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
-  
-  
-<link rel="stylesheet" href="/css/style.css">
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
 
-  
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+          <div class="content index posts-expand">
+            
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/16/%E3%80%8A%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">
 
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-《选择理论》-第一次阅读" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/16/%E3%80%8A%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="article-date">
-  <time class="dt-published" datetime="2023-06-16T01:34:58.000Z" itemprop="datePublished">2023-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/16/%E3%80%8A%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《选择理论》 第一次阅读</a>
-    </h1>
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
 
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/06/16/%E3%80%8A%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="post-title-link" itemprop="url">《选择理论》 第一次阅读</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-06-16 09:34:58 / Modified: 09:35:19" itemprop="dateCreated datePublished" datetime="2023-06-16T09:34:58+08:00">2023-06-16</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h4 id="《选择理论》-2023-x2F-4-x2F-23-第一次阅读"><a href="#《选择理论》-2023-x2F-4-x2F-23-第一次阅读" class="headerlink" title="《选择理论》 2023&#x2F;4&#x2F;23 第一次阅读"></a>《选择理论》 2023&#x2F;4&#x2F;23 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><ol>
+          <h4 id="《选择理论》-2023-x2F-4-x2F-23-第一次阅读"><a href="#《选择理论》-2023-x2F-4-x2F-23-第一次阅读" class="headerlink" title="《选择理论》 2023&#x2F;4&#x2F;23 第一次阅读"></a>《选择理论》 2023&#x2F;4&#x2F;23 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><ol>
 <li>假如去问世界上所有不受饥饿，疾病或贫穷且对生活似乎颇有追求的人”你们过得好吗”，并要求他们给你一个诚实的答案，成千上万人会回答：“我过得不好。”如果你问为什么，他们几乎都会因自己的痛苦而责难他人——爱人，妻子，丈夫，前任，孩子，父母，教师，学生或同事。世上几乎没有人不曾听过这样的话：“你让我快疯了……这真的让我烦透了……你考虑过我的感受？……你让我如此伤心，我忍无可忍了。”但他们从来没有意识到，正是他们自己选择了这些痛苦。</li>
 <li>选择理论认为，我们是出于实用目的而选择去做我们所做的每一件事，包括感受痛苦。别人既不能使我们悲伤，也不能使我们开心。我们能够从别人那里得到或者给予他们的，只有信息，而信息本身并不能使一个人去做任何事或者感受任何东西。信息进入我们的大脑，然后对其进行加工，最后我们才决定去做什么。我们选择了自己所有的行动和思维，也间接地选择了几乎所有的感受和大部分生理活动。</li>
 <li>我们遇到那些不仅知道什么对自己有好处，还不幸地知道什么对我们有好处的人，就已经埋下了所有不幸地种子。这些人带着这种认识以及一个支配了我们思维数千年的坏传统感到有责任迫使我们去做他们认为对的事情。到目前为止，我们选择反抗这种压迫的方式正是人类痛苦的最大根源。选择理论挑战了“我知道什么对你有好处”这一古老传统。本书就是要尝试回答一个问题，几乎所有人都在不开心时都会不停地这样问自己：“我如何能找到一种让我既能过上我想要的生活，又能与身边的人融洽相处的方法呢？”</li>
@@ -127,44 +216,62 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/16/%E3%80%8A%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" data-id="clixweysr000392yw3ac1bipe" data-title="《选择理论》 第一次阅读" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reading/" rel="tag">reading</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-健康饮食" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/16/%E5%81%A5%E5%BA%B7%E9%A5%AE%E9%A3%9F/" class="article-date">
-  <time class="dt-published" datetime="2023-06-16T01:34:00.000Z" itemprop="datePublished">2023-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
-        
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/16/%E5%81%A5%E5%BA%B7%E9%A5%AE%E9%A3%9F/">健康饮食</a>
-    </h1>
+  
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/16/%E5%81%A5%E5%BA%B7%E9%A5%AE%E9%A3%9F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/06/16/%E5%81%A5%E5%BA%B7%E9%A5%AE%E9%A3%9F/" class="post-title-link" itemprop="url">健康饮食</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-06-16 09:34:00 / Modified: 09:34:36" itemprop="dateCreated datePublished" datetime="2023-06-16T09:34:00+08:00">2023-06-16</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h4 id="健康饮食"><a href="#健康饮食" class="headerlink" title="健康饮食"></a>健康饮食</h4><ul>
+          <h4 id="健康饮食"><a href="#健康饮食" class="headerlink" title="健康饮食"></a>健康饮食</h4><ul>
 <li>坚持谷类为主的平衡膳食模式。</li>
 <li>每天的膳食包括谷薯类，蔬菜水果，畜禽鱼蛋奶和豆类食品。</li>
 <li>平局每天摄入12种以上食物，每周25种以上，合理搭配。</li>
@@ -249,44 +356,62 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/16/%E5%81%A5%E5%BA%B7%E9%A5%AE%E9%A3%9F/" data-id="clixweysu000992ywha48gipu" data-title="健康饮食" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/eating/" rel="tag">eating</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-《终身成长》-第一次阅读" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/16/%E3%80%8A%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="article-date">
-  <time class="dt-published" datetime="2023-06-16T01:33:00.000Z" itemprop="datePublished">2023-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
-        
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/16/%E3%80%8A%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《终身成长》 第一次阅读</a>
-    </h1>
+  
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/16/%E3%80%8A%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/06/16/%E3%80%8A%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="post-title-link" itemprop="url">《终身成长》 第一次阅读</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-06-16 09:33:00 / Modified: 09:33:29" itemprop="dateCreated datePublished" datetime="2023-06-16T09:33:00+08:00">2023-06-16</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h4 id="《终身成长》-2023-x2F-4-x2F-21-第一次阅读"><a href="#《终身成长》-2023-x2F-4-x2F-21-第一次阅读" class="headerlink" title="《终身成长》 2023&#x2F;4&#x2F;21 第一次阅读"></a>《终身成长》 2023&#x2F;4&#x2F;21 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><ol>
+          <h4 id="《终身成长》-2023-x2F-4-x2F-21-第一次阅读"><a href="#《终身成长》-2023-x2F-4-x2F-21-第一次阅读" class="headerlink" title="《终身成长》 2023&#x2F;4&#x2F;21 第一次阅读"></a>《终身成长》 2023&#x2F;4&#x2F;21 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><ol>
 <li>当刻板印象被唤起的时候，它会扰乱人们的思绪——让人们暗暗担心自己的表现会验证这种刻板印象。人们通常都不会察觉自己有这样的想法，这种心理活动却让他们没有足够的精神力量去专注于考试本身。但是这种情况并不会发生在每个人身上，而主要发生在固定型思维模式者身上。当人们认为个人力量是固定的，从这个角度出发思考问题时，刻板印象就很容易禁锢你的思维。否定的刻板印象会对人们说：“你和你的种群永远都低人一等。”只有固定型思维者会对此产生共鸣。在固定型思维模式中，无论是肯定的还是否定的标签都会扰乱你的思绪：当你被贴上肯定的标签时，你害怕会失去它；而当你不幸被贴上否定的标签时，你会害怕自己正如标签所说。</li>
 <li>很多能力出众，成就甚高的女性都有这个弱点（其实当前这个时代很多男生也会有这种经历和思想）。为什么会这样呢？这些女孩小时候通常非常完美，她们也喜欢听别人这样称赞她们。她们举止得体，惹人喜爱，助人为乐，智力过人。她们因此学会去相信别人对自己的评价。“啊，大家对我真好，如果他们批评我，那么他们说的一定是真的。”即使是全国顶尖高校的女生也同样认为，可以从其他人对自己的评价中看出自己的能力。男孩们则经常被责骂和惩罚（现在也不完全是这样）。在观察小学生的学习生活时，我们发现男孩因为自己的行为而被责骂的次数是女孩的8倍。男孩经常称同伴为“蠢货”和“傻瓜”，这种评价对他们而言就丧失了很大的攻击力。尽管这些话不算太友善，即使是开玩笑也不算友善，但它们的好处就是，确实能让男人们在接受别人的评价前三思。女性即使取得了非凡的成就，依然会受到外界的看法的影响。弗朗西斯-康利是世界上最杰出的神经科医生之一。事实上，她是第一个在美国医学院校的精神科获得终身职位的女性，但还是会有男性同志不经意的评论——即使是助手们的——让她对自己产生怀疑。</li>
 <li>“对我来说，体育运动的乐趣并不在于夺冠。”杰西-乔依娜-柯西告诉我们，“……无论是运动的过程还是结果，我得到的快乐是一样多的。如果我看到了自己的进步，或者觉得自己发挥了应有的水平，我并不介意输掉比赛。如果我输了，我只要回到训练轨迹上来，接受更多的训练就好了。”</li>
@@ -297,44 +422,62 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/16/%E3%80%8A%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" data-id="clixweysq000192ywgarfhr6y" data-title="《终身成长》 第一次阅读" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reading/" rel="tag">reading</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-《练习的心态》第一次阅读" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/16/%E3%80%8A%E7%BB%83%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E3%80%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="article-date">
-  <time class="dt-published" datetime="2023-06-16T01:32:08.000Z" itemprop="datePublished">2023-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
-        
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/16/%E3%80%8A%E7%BB%83%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E3%80%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《练习的心态》第一次阅读</a>
-    </h1>
+  
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/16/%E3%80%8A%E7%BB%83%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E3%80%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/06/16/%E3%80%8A%E7%BB%83%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E3%80%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="post-title-link" itemprop="url">《练习的心态》第一次阅读</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-06-16 09:32:08 / Modified: 09:32:33" itemprop="dateCreated datePublished" datetime="2023-06-16T09:32:08+08:00">2023-06-16</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h4 id="《练习的心态》-第一次阅读-2023-x2F-4-x2F-17"><a href="#《练习的心态》-第一次阅读-2023-x2F-4-x2F-17" class="headerlink" title="《练习的心态》 第一次阅读 2023&#x2F;4&#x2F;17"></a>《练习的心态》 第一次阅读 2023&#x2F;4&#x2F;17</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><ol>
+          <h4 id="《练习的心态》-第一次阅读-2023-x2F-4-x2F-17"><a href="#《练习的心态》-第一次阅读-2023-x2F-4-x2F-17" class="headerlink" title="《练习的心态》 第一次阅读 2023&#x2F;4&#x2F;17"></a>《练习的心态》 第一次阅读 2023&#x2F;4&#x2F;17</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><ol>
 <li>当我们试图理解自己以及我们对人生中各种努力的痛苦挣扎时，可以观察一朵鲜花来找到平和。问你自己：一朵鲜花的生命，从撒下种子到完全盛开，在什么时候可以达到完美？</li>
 <li>当我们不易察觉地做出改变，既专注于实现目标的过程，又从这个过程中找到乐趣，而不是拥有这个目标时，我们便获得了一项新的技能。</li>
 <li>人生中值得去做的每一件事，都需要练习。事实上，人生本身只不过是一个漫长的练习过程，是一种永无止境地优化各种行为的过程。当你弄懂了练习的真正原理，学习某些新事物的任务将变成一种没有压力的愉快与平和的体验，变成一个适合你生活中各种领域的过程，并且促成你对生活中所有的艰辛与痛苦采用合适的视角来观察。</li>
@@ -368,44 +511,62 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/16/%E3%80%8A%E7%BB%83%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E3%80%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" data-id="clixweysu000a92ywhsqhgl2h" data-title="《练习的心态》第一次阅读" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reading/" rel="tag">reading</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-《不忠的女人》-第一次阅读" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/16/%E3%80%8A%E4%B8%8D%E5%BF%A0%E7%9A%84%E5%A5%B3%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="article-date">
-  <time class="dt-published" datetime="2023-06-16T01:31:09.000Z" itemprop="datePublished">2023-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
-        
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/16/%E3%80%8A%E4%B8%8D%E5%BF%A0%E7%9A%84%E5%A5%B3%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《不忠的女人》 第一次阅读</a>
-    </h1>
+  
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/16/%E3%80%8A%E4%B8%8D%E5%BF%A0%E7%9A%84%E5%A5%B3%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/06/16/%E3%80%8A%E4%B8%8D%E5%BF%A0%E7%9A%84%E5%A5%B3%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="post-title-link" itemprop="url">《不忠的女人》 第一次阅读</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-06-16 09:31:09 / Modified: 09:31:43" itemprop="dateCreated datePublished" datetime="2023-06-16T09:31:09+08:00">2023-06-16</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h4 id="《不忠的女人》2023-x2F-4-x2F-9-第一次阅读"><a href="#《不忠的女人》2023-x2F-4-x2F-9-第一次阅读" class="headerlink" title="《不忠的女人》2023&#x2F;4&#x2F;9 第一次阅读"></a>《不忠的女人》2023&#x2F;4&#x2F;9 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><p>她深深地吸气，忘记了寒冷，忘记了人们的负担，忘记了狂乱或凝结了的生命，忘记了生与死的漫长焦虑。多年来为了逃避恐惧，她拼命奔跑却漫无目的，现在她终于停下了脚步。同时她仿佛寻到了自己的根，躯体内的精神复归，她已不再哆嗦。（精神的宁静远超过肉体上的痛苦）她将腹部紧贴栏杆，昂首向着浮动着的苍穹，一心等待激动的情绪平静下来，内心获得一片宁静。</p>
+          <h4 id="《不忠的女人》2023-x2F-4-x2F-9-第一次阅读"><a href="#《不忠的女人》2023-x2F-4-x2F-9-第一次阅读" class="headerlink" title="《不忠的女人》2023&#x2F;4&#x2F;9 第一次阅读"></a>《不忠的女人》2023&#x2F;4&#x2F;9 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><p>她深深地吸气，忘记了寒冷，忘记了人们的负担，忘记了狂乱或凝结了的生命，忘记了生与死的漫长焦虑。多年来为了逃避恐惧，她拼命奔跑却漫无目的，现在她终于停下了脚步。同时她仿佛寻到了自己的根，躯体内的精神复归，她已不再哆嗦。（精神的宁静远超过肉体上的痛苦）她将腹部紧贴栏杆，昂首向着浮动着的苍穹，一心等待激动的情绪平静下来，内心获得一片宁静。</p>
 <p>自古至今，在这干旱得万物惆怅的土地上，少数人不停地游荡。他们一无所有，可也不听任何人使唤。他们是某一奇特王国自由自在但却穷困潦倒的贵族。她只知道：她是期盼这奇特王国的，但它将永远不属于她，不再可能属于她，除非是在此刻，这稍纵即逝的瞬间。</p>
 <h5 id="读后感受"><a href="#读后感受" class="headerlink" title="读后感受"></a>读后感受</h5><p>感觉这本书与《一个人的朝圣》有很相似的情感感受。都是想脱离这冗长无趣寂寞的生活，寻找内心真正追求的，雅尼娜获得了一瞬间的自由，而哈罗德获得了一整个旅途的自由并且同时也感染了他身边的人，尤其是妻子，在旅途之后的日子里，他们可能又燃起了自己内心的火花。</p>
 <p>不忠的女人并不是所想象的肉体或者精神上的不忠，并且其不仅仅局限于雅尼娜对他的丈夫的“不忠”。加缪笔下的不忠，是主人公雅尼娜对于这个世界的叛逃。她不忠的是这个荒诞的世界，她要反抗，她意识到自己对生活的疲态，在这个夜晚的短暂的自我放逐，她知道了自己所求。但即便如此，她并没有选择逃离本来的生活，她选择回到了丈夫的身边。尽管生活仍在继续，但她已经完成了自我的觉醒，意识到了这种无意义的本身。她是“不忠”的女人，却是一个真正的“人”。</p>
@@ -415,44 +576,62 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/16/%E3%80%8A%E4%B8%8D%E5%BF%A0%E7%9A%84%E5%A5%B3%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" data-id="clixweysu000c92yw6q6vfv9b" data-title="《不忠的女人》 第一次阅读" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reading/" rel="tag">reading</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-《局外人》-第一次阅读" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/16/%E3%80%8A%E5%B1%80%E5%A4%96%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="article-date">
-  <time class="dt-published" datetime="2023-06-16T01:29:48.000Z" itemprop="datePublished">2023-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
-        
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/16/%E3%80%8A%E5%B1%80%E5%A4%96%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《局外人》 第一次阅读</a>
-    </h1>
+  
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/16/%E3%80%8A%E5%B1%80%E5%A4%96%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/06/16/%E3%80%8A%E5%B1%80%E5%A4%96%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" class="post-title-link" itemprop="url">《局外人》 第一次阅读</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-06-16 09:29:48 / Modified: 09:30:25" itemprop="dateCreated datePublished" datetime="2023-06-16T09:29:48+08:00">2023-06-16</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h4 id="《局外人》2023-x2F-4-x2F-7-第一次阅读"><a href="#《局外人》2023-x2F-4-x2F-7-第一次阅读" class="headerlink" title="《局外人》2023&#x2F;4&#x2F;7 第一次阅读"></a>《局外人》2023&#x2F;4&#x2F;7 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><p>乡野的万籁一直传到我耳畔。夜的气味，大地的气息和海水的盐味清凉了我的太阳穴。这沉睡的夏夜美妙的静谧，如潮水一般涌入我的心田。（这种舒适的感觉对于默尔索来说是有意义的并珍惜的）</p>
+          <h4 id="《局外人》2023-x2F-4-x2F-7-第一次阅读"><a href="#《局外人》2023-x2F-4-x2F-7-第一次阅读" class="headerlink" title="《局外人》2023&#x2F;4&#x2F;7 第一次阅读"></a>《局外人》2023&#x2F;4&#x2F;7 第一次阅读</h4><h5 id="印象深的段落"><a href="#印象深的段落" class="headerlink" title="印象深的段落"></a>印象深的段落</h5><p>乡野的万籁一直传到我耳畔。夜的气味，大地的气息和海水的盐味清凉了我的太阳穴。这沉睡的夏夜美妙的静谧，如潮水一般涌入我的心田。（这种舒适的感觉对于默尔索来说是有意义的并珍惜的）</p>
 <p>这时候，黑夜将尽，汽笛阵阵鸣叫，宣告航船启程，驶往现在与我毫无关系的世界。（伴随黎明一同到来的任何事情对于默尔索来说都是没有意义的了，因为他即将面对死亡，而死亡本身也是没有意义的）</p>
 <p>很久以来，我第一次想到妈妈。我似乎明白了，为什么她到生命的末期还找了一个“未婚夫”，为什么她还玩起重新开始的游戏。在那边，在那边也一样，在一些生命行将熄灭的养老院周围，夜晚好似忧伤的间歇。妈妈临死的时候，一定感到自身即将解脱，准备再次经历这一切。任何人，任何人都无权为她哭泣。我也同样，感到自己准备好了，要再次经历这一切。（可能这就是人生最好的结局，也是在生命结束的时候最好的人生态度，特别对默尔索来说，没有意义的事情从始至终都是没有意义的，但是有意义的事情我会永远怀恋，并在死亡之后仍然期待着。默尔索的态度可以是对世界的冷漠，但同时也有一种豁达乐观）</p>
 <p>经过这场盛怒，我就好像净除了痛苦，空乏了希望，面对这布满征象的星空，<strong>我第一次敞开了心扉，接受世界温柔的冷漠</strong>（感觉这里不是很好理解，因为感觉从始至终默尔索都是敞开了心扉，接受世界温柔的冷漠的，我的观点是默尔索的人生态度可能是很自然的形成的，但是在生命即将结束的时候，他开始感激或者欣然接受这种人生态度，或者到达了这种人生态度的更高的境界，可能是对有意义的事情更加向往（温柔），无意义的事情更加无所谓了（冷漠）），感受到这个世界如此像我，总之亲如手足，我就觉得自己从前幸福，现在仍然幸福。为求尽善尽美，为求我不再感到那么孤独，我只期望行刑那天围观的民众都向我发出憎恨的吼声。（这里更能表达一种豁达的态度，可能默尔索站在一个更高的层次上去看待那些无知的民众，在生命的最后一刻带给一点那些民众虚伪又毫无意义的希望）</p>
@@ -468,182 +647,175 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/16/%E3%80%8A%E5%B1%80%E5%A4%96%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/" data-id="clixweyso000092yw9ugw2i73" data-title="《局外人》 第一次阅读" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reading/" rel="tag">reading</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/16/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2023-06-16T01:11:23.000Z" itemprop="datePublished">2023-06-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/16/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
     
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/16/hello-world/" data-id="clixvo07t0000zgyw1br5a3hs" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
   
-</article>
-
+  
+  
 
 
   
 
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
 
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/eating/" rel="tag">eating</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/reading/" rel="tag">reading</a></li></ul>
-    </div>
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
   </div>
 
+  <aside class="sidebar">
+    <div class="sidebar-inner">
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/eating/" style="font-size: 10px;">eating</a> <a href="/tags/reading/" style="font-size: 20px;">reading</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">June 2023</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/06/16/%E3%80%8A%E9%80%89%E6%8B%A9%E7%90%86%E8%AE%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《选择理论》 第一次阅读</a>
-          </li>
-        
-          <li>
-            <a href="/2023/06/16/%E5%81%A5%E5%BA%B7%E9%A5%AE%E9%A3%9F/">健康饮食</a>
-          </li>
-        
-          <li>
-            <a href="/2023/06/16/%E3%80%8A%E7%BB%88%E8%BA%AB%E6%88%90%E9%95%BF%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《终身成长》 第一次阅读</a>
-          </li>
-        
-          <li>
-            <a href="/2023/06/16/%E3%80%8A%E7%BB%83%E4%B9%A0%E7%9A%84%E5%BF%83%E6%80%81%E3%80%8B%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《练习的心态》第一次阅读</a>
-          </li>
-        
-          <li>
-            <a href="/2023/06/16/%E3%80%8A%E4%B8%8D%E5%BF%A0%E7%9A%84%E5%A5%B3%E4%BA%BA%E3%80%8B-%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%98%85%E8%AF%BB/">《不忠的女人》 第一次阅读</a>
-          </li>
-        
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
       </ul>
-    </div>
-  </div>
 
-  
-</aside>
-        
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
 
     </div>
-    <nav id="mobile-nav">
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
   
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
   </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
 </body>
 </html>
